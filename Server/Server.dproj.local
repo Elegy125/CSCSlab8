@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.502,=C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.263,C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\babas\Desktop\Server\Main.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.380,C:\Users\babas\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\babas\Desktop\Server\Server.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.901,E:\SP\UDP_Example_Delphi_Record_Canvas_var2\Server\MyCommands.pas=E:\SP\UDP_Example_Delphi_Record_Canvas_var2\Server\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.797,=E:\SP\UDP_Example_Delphi_Record_Canvas_var2\Server\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.263,C:\Users\babas\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\babas\Desktop\Server\Main.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="UWAU55TKYTPFSSSS" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

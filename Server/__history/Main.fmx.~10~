@@ -1,0 +1,72 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 474
+  Fill.Color = claSnow
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    Position.Y = 40.000000000000000000
+    Size.Width = 474.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 474.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Label2: TLabel
+      Align = Client
+      Size.Width = 474.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'UDPServerDemo'
+      TabOrder = 0
+    end
+  end
+  object Label3: TLabel
+    Align = Top
+    Position.Y = 57.000000000000000000
+    Size.Width = 474.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = #1055#1088#1080#1085#1103#1090#1099#1077' '#1076#1072#1085#1085#1099#1077':'
+    TabOrder = 5
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Top
+    Position.Y = 74.000000000000000000
+    Size.Width = 474.000000000000000000
+    Size.Height = 78.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 474.000000000000000000
+    Viewport.Height = 78.000000000000000000
+  end
+  object PaintBox1: TPaintBox
+    Align = Client
+    Size.Width = 474.000000000000000000
+    Size.Height = 328.000000000000000000
+    Size.PlatformDefault = False
+    OnPaint = PaintBox1Paint
+  end
+  object IdUDPServer1: TIdUDPServer
+    BufferSize = 10000
+    Bindings = <>
+    DefaultPort = 5000
+    OnUDPRead = IdUDPServer1UDPRead
+    Left = 336
+    Top = 192
+  end
+end
